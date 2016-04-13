@@ -1,0 +1,124 @@
+/* allView底下皆套用置中對齊 */
+
+body {
+    background-color: #E2EAC9;
+}
+
+#allView {
+    position: relative;
+    width: 98%;
+    height: 500px;
+}
+
+.mainFrame,
+.creatBoxFrame,
+.modelFrame,
+.changeFrame,
+.numberFrame,
+.langFrame,
+.sidebarFrame{
+    position: absolute;
+    margin: 1px;
+}
+
+.mainFrame,
+.creatBoxFrame,
+.numberFrame{
+    width: 100%;
+}
+
+.mainFrame {
+    height: 500px;
+}
+
+.creatBoxFrame {
+    height: 40px;
+    line-height: 40px;
+}
+
+.modelFrame {
+    width: 30%;
+    height: 15%;
+    top: 10%;
+}
+
+.changeFrame {
+    width: 67%;
+    height: 15%;
+    top: 10%;
+    left: 32%;
+}
+
+
+/* 側邊欄區 */
+
+.sidebarFrame {
+    width: 50%;
+    height: 100px;
+    top: 400px;
+    margin-left: 20%;
+}
+
+.langFrame {
+    height: 7%;
+    width: 80%;
+    top: 30%;
+}
+
+#lang{
+    margin-top: 15px;
+}
+
+
+/* 字數區 */
+
+.numberFrame {
+    margin-left: 5%;
+    top: 50%;
+}
+
+.numberBox {    
+    height: 55px;
+    line-height: 55px;
+    margin-top: -3px;
+    margin-left: -2px;
+    display: inline-block;
+    background-color: rgb(251, 252, 249);
+}
+
+
+
+.inModel,
+.inChange,
+.sidebarFrame {
+    border: 5px ridge #98bf21;
+}
+
+.numberBox,
+.creatBoxFrame,
+.txtLine {
+    border: 2px solid #98bf21;
+}
+
+#minNumber,
+#maxNumber,
+#addBoxNum {
+    width: 40px;
+    margin: 3px;
+}
+
+.inModel,
+.inChange {
+    margin: 5px;
+}
+
+.sidebarFrame,
+.langFrame,
+.numberBox,
+#minNumber,
+#maxNumber,
+#addBoxNum,
+#lineNumber {
+    text-align: center;
+    vertical-align: center;
+}

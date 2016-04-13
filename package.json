@@ -1,0 +1,20 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/main.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noel5219/helloworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noel5219/helloworld/issues"
+  },
+  "homepage": "https://github.com/Noel5219/helloworld#readme"
+}

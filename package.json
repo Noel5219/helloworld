@@ -2,7 +2,7 @@
   "name": "helloworld",
   "version": "1.0.0",
   "description": "",
-  "main": "app/main.jsx",
+  "main": "js/main.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/Noel5219/helloworld#readme",
   "dependencies": {
+    "css-loader": "^0.23.1",
     "jsx-loader": "^0.13.2",
     "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "react-dom": "^15.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.15"
   }
 }

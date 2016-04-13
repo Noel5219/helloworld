@@ -1,2 +1,6 @@
+var React = require('react');
+var ReactDom = require('react-dom');
 var AppComponent = require('./AppComponent.jsx');
-console.log('Loaded the app component');
+// require('./main.scss');
+
+ReactDom.render(<AppComponent />, document.getElementById('container'));
